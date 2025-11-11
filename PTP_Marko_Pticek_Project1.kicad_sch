@@ -800,197 +800,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector:Screw_Terminal_01x02"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J1"
-				(at 0 3.048 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Screw_Terminal_01x02"
-				(at 0 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "screw terminal"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "TerminalBlock*:*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Screw_Terminal_01x02_1_1"
-				(rectangle
-					(start -1.27 1.27)
-					(end 1.27 -3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.5334 0.3302) (xy 0.3302 -0.508)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.5334 -2.2098) (xy 0.3302 -3.048)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.3556 0.508) (xy 0.508 -0.3302)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.3556 -2.032) (xy 0.508 -2.8702)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 0)
-					(radius 0.635)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 -2.54)
-					(radius 0.635)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -2880,6 +2689,196 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Screw_Terminal_01x02_1"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Screw_Terminal_01x02"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "screw terminal"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TerminalBlock*:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Screw_Terminal_01x02_1_1_1"
+				(rectangle
+					(start -1.27 1.27)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.5334 0.3302) (xy 0.3302 -0.508)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.5334 -2.2098) (xy 0.3302 -3.048)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.3556 0.508) (xy 0.508 -0.3302)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.3556 -2.032) (xy 0.508 -2.8702)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 0.635)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 -2.54)
+					(radius 0.635)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Switch:SW_Push"
 			(pin_numbers
 				(hide yes)
@@ -3030,24 +3029,32 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Switch:SW_SPDT"
+		(symbol "Switch:SW_Wuerth_450301014042"
 			(pin_names
-				(offset 0)
+				(offset 1)
 				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "SW2"
-				(at -0.254 -5.334 0)
+			(property "Reference" "SW"
+				(at 0 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "~"
-				(at 0 6.35 0)
+			(property "Value" "SW_Wuerth_450301014042"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Button_Switch_THT:SW_Slide-03_Wuerth-WS-SLTV_10x2.5x6.4_P2.54mm"
+				(at 0 -10.16 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3055,16 +3062,7 @@
 					(hide yes)
 				)
 			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
+			(property "Datasheet" "https://www.we-online.com/components/products/datasheet/450301014042.pdf"
 				(at 0 -7.62 0)
 				(effects
 					(font
@@ -3073,7 +3071,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Switch, single pole double throw"
+			(property "Description" "Switch slide, single pole double throw"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3082,7 +3080,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "switch single-pole double-throw spdt ON-ON"
+			(property "ki_keywords" "changeover single-pole opposite-side-connection double-throw spdt ON-ON"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3091,7 +3089,16 @@
 					(hide yes)
 				)
 			)
-			(symbol "SW_SPDT_0_1"
+			(property "ki_fp_filters" "SW*Wuerth*WS*SLTV*10x2.5x6.4*P2.54mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_Wuerth_450301014042_0_1"
 				(circle
 					(center -2.032 0)
 					(radius 0.4572)
@@ -3138,7 +3145,7 @@
 					)
 				)
 			)
-			(symbol "SW_SPDT_1_1"
+			(symbol "SW_Wuerth_450301014042_1_1"
 				(rectangle
 					(start -3.175 3.81)
 					(end 3.175 -3.81)
@@ -6885,7 +6892,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "018035c1-916f-427c-9c3c-fbefde7da971")
-		(property "Reference" "U1"
+		(property "Reference" "U6"
 			(at 160.02 159.9498 0)
 			(effects
 				(font
@@ -6949,7 +6956,7 @@
 		(instances
 			(project ""
 				(path "/aea8c96d-773b-4621-89b6-2dd77fccfb58"
-					(reference "U1")
+					(reference "U6")
 					(unit 1)
 				)
 			)
@@ -7410,6 +7417,75 @@
 			(project ""
 				(path "/aea8c96d-773b-4621-89b6-2dd77fccfb58"
 					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "Screw_Terminal_01x02_1")
+		(lib_id "Connector:Screw_Terminal_01x02")
+		(at 16.51 44.45 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "135d2126-d9ad-423c-bd76-d7c5e831feed")
+		(property "Reference" "J1"
+			(at 16.51 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Screw_Terminal_01x02"
+			(at 16.51 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 16.51 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 16.51 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 16.51 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f03e9420-075e-4d1c-aed2-ca1feb698332")
+		)
+		(pin "2"
+			(uuid "896d992e-e886-4170-933b-123e8730afc2")
+		)
+		(instances
+			(project ""
+				(path "/aea8c96d-773b-4621-89b6-2dd77fccfb58"
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -7891,7 +7967,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "27612b06-422e-4dfb-92bf-ea53fa40f587")
-		(property "Reference" "R8"
+		(property "Reference" "R3"
 			(at 265.43 39.878 90)
 			(effects
 				(font
@@ -7943,7 +8019,7 @@
 		(instances
 			(project "PTP_Marko_Pticek_Project1"
 				(path "/aea8c96d-773b-4621-89b6-2dd77fccfb58"
-					(reference "R8")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -8143,75 +8219,6 @@
 			(project ""
 				(path "/aea8c96d-773b-4621-89b6-2dd77fccfb58"
 					(reference "#PWR013")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 16.51 41.91 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "351fb042-1ac3-47ef-b322-16d6d57ee381")
-		(property "Reference" "J1"
-			(at 16.51 38.862 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Screw_Terminal_01x02"
-			(at 16.51 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 16.51 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 16.51 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 16.51 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "fe90faac-544f-4cc4-a2ea-54d705048676")
-		)
-		(pin "1"
-			(uuid "10d99c5e-d435-48ca-93c3-5d5a21c8d4a9")
-		)
-		(instances
-			(project ""
-				(path "/aea8c96d-773b-4621-89b6-2dd77fccfb58"
-					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -8426,7 +8433,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "42a44c56-c57d-41a8-b48f-324ebef8aa33")
-		(property "Reference" "R9"
+		(property "Reference" "R4"
 			(at 265.43 51.308 90)
 			(effects
 				(font
@@ -8478,7 +8485,7 @@
 		(instances
 			(project "PTP_Marko_Pticek_Project1"
 				(path "/aea8c96d-773b-4621-89b6-2dd77fccfb58"
-					(reference "R9")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -9970,7 +9977,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8aee4d6a-fb12-47f9-ac02-bacbf652c78f")
-		(property "Reference" "R7"
+		(property "Reference" "R2"
 			(at 265.43 29.718 90)
 			(effects
 				(font
@@ -10022,7 +10029,7 @@
 		(instances
 			(project "PTP_Marko_Pticek_Project1"
 				(path "/aea8c96d-773b-4621-89b6-2dd77fccfb58"
-					(reference "R7")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -10699,78 +10706,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_SPDT")
-		(at 58.42 105.41 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9a8e7a88-54a9-43ec-85cd-553e41659f43")
-		(property "Reference" "SW2"
-			(at 58.674 110.744 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "~"
-			(at 58.42 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 58.42 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 58.42 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Switch, single pole double throw"
-			(at 58.42 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "64cd5aba-f30b-45cc-a757-873c26c5ef00")
-		)
-		(pin "1"
-			(uuid "826162da-5751-4a4b-bd06-44ce968e9c0c")
-		)
-		(pin "2"
-			(uuid "3dab7887-b20a-4b8d-8ab7-7c92e2328cc0")
-		)
-		(instances
-			(project ""
-				(path "/aea8c96d-773b-4621-89b6-2dd77fccfb58"
-					(reference "SW2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 130.81 111.76 0)
 		(unit 1)
@@ -11029,52 +10964,52 @@
 			)
 		)
 		(pin "4"
-			(uuid "7466981a-af1c-49a8-bcff-5bb88096aabc")
+			(uuid "7466981a-af1c-49a8-bcff-5bb88096aabd")
 		)
 		(pin "16"
-			(uuid "4d23e05a-ea0f-4f57-a470-109651371225")
+			(uuid "4d23e05a-ea0f-4f57-a470-109651371226")
 		)
 		(pin "9"
-			(uuid "15dcc072-baab-4422-a599-8a04c1b36068")
+			(uuid "15dcc072-baab-4422-a599-8a04c1b36069")
 		)
 		(pin "1"
-			(uuid "07dcacce-e1b1-4173-9641-55375f99ba5d")
+			(uuid "07dcacce-e1b1-4173-9641-55375f99ba5e")
 		)
 		(pin "14"
-			(uuid "39212ba2-bc68-4aa2-9374-f0793a83690b")
+			(uuid "39212ba2-bc68-4aa2-9374-f0793a83690c")
 		)
 		(pin "2"
-			(uuid "712d1a47-512e-43d3-beee-ef505f8f8c24")
+			(uuid "712d1a47-512e-43d3-beee-ef505f8f8c25")
 		)
 		(pin "11"
-			(uuid "8c68ff0e-99d4-4d81-9597-b4801ba09e72")
+			(uuid "8c68ff0e-99d4-4d81-9597-b4801ba09e73")
 		)
 		(pin "13"
-			(uuid "2f2dda00-a368-4683-a176-729328ff25a3")
+			(uuid "2f2dda00-a368-4683-a176-729328ff25a4")
 		)
 		(pin "12"
-			(uuid "d90b1d74-f71c-49ec-aeff-f56c0db11797")
+			(uuid "d90b1d74-f71c-49ec-aeff-f56c0db11798")
 		)
 		(pin "8"
-			(uuid "1e12a1b8-f490-45bc-b18c-77576229b63b")
+			(uuid "1e12a1b8-f490-45bc-b18c-77576229b63c")
 		)
 		(pin "5"
-			(uuid "81f2967f-c4ff-464f-8429-89520e6b1cbc")
+			(uuid "81f2967f-c4ff-464f-8429-89520e6b1cbd")
 		)
 		(pin "15"
-			(uuid "63adf4f7-ee97-4c0a-ac6a-8e82819e2e87")
+			(uuid "63adf4f7-ee97-4c0a-ac6a-8e82819e2e88")
 		)
 		(pin "7"
-			(uuid "5af48b48-c2d3-4ed8-93bb-5a4fa2f3f776")
+			(uuid "5af48b48-c2d3-4ed8-93bb-5a4fa2f3f777")
 		)
 		(pin "6"
-			(uuid "491df759-57e0-4421-8f91-a2a2c5549a43")
+			(uuid "491df759-57e0-4421-8f91-a2a2c5549a44")
 		)
 		(pin "3"
-			(uuid "c5c6cb4b-2dcb-4e82-aaea-7d8045dbe25e")
+			(uuid "c5c6cb4b-2dcb-4e82-aaea-7d8045dbe25f")
 		)
 		(pin "10"
-			(uuid "76af9834-4219-4ee6-aa67-65248c09249d")
+			(uuid "76af9834-4219-4ee6-aa67-65248c09249e")
 		)
 		(instances
 			(project ""
@@ -11528,7 +11463,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bc7619f1-7c9c-47b1-af87-94bd6240139c")
-		(property "Reference" "R6"
+		(property "Reference" "R1"
 			(at 265.43 18.034 90)
 			(effects
 				(font
@@ -11580,7 +11515,7 @@
 		(instances
 			(project ""
 				(path "/aea8c96d-773b-4621-89b6-2dd77fccfb58"
-					(reference "R6")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -11730,52 +11665,52 @@
 			)
 		)
 		(pin "3"
-			(uuid "834be451-307a-44f6-bce2-4f9b8b324194")
+			(uuid "834be451-307a-44f6-bce2-4f9b8b324195")
 		)
 		(pin "11"
-			(uuid "3b276a8c-08ed-4410-a327-38de0555852c")
+			(uuid "3b276a8c-08ed-4410-a327-38de0555852d")
 		)
 		(pin "9"
-			(uuid "0fc2c6c7-c43a-4b67-80e0-7e311af5deea")
+			(uuid "0fc2c6c7-c43a-4b67-80e0-7e311af5deeb")
 		)
 		(pin "5"
-			(uuid "75beb72d-bee2-46fc-9056-8ac26d75177d")
+			(uuid "75beb72d-bee2-46fc-9056-8ac26d75177e")
 		)
 		(pin "7"
-			(uuid "ad8c21ca-5c28-4123-97e0-3a12847dafef")
+			(uuid "ad8c21ca-5c28-4123-97e0-3a12847daff0")
 		)
 		(pin "4"
-			(uuid "6794d1f4-333e-4034-8f8e-924e4ebcfd63")
+			(uuid "6794d1f4-333e-4034-8f8e-924e4ebcfd64")
 		)
 		(pin "1"
-			(uuid "ca17602b-5479-44d2-ab42-bede7c974d50")
+			(uuid "ca17602b-5479-44d2-ab42-bede7c974d51")
 		)
 		(pin "10"
-			(uuid "cbc4ca1f-8902-45f0-b841-542a5b38719e")
+			(uuid "cbc4ca1f-8902-45f0-b841-542a5b38719f")
 		)
 		(pin "14"
-			(uuid "90b5545d-f8cf-4797-b9ee-0fbd0d3affd9")
+			(uuid "90b5545d-f8cf-4797-b9ee-0fbd0d3affda")
 		)
 		(pin "13"
-			(uuid "31fdb1ea-4203-41ef-8c48-8d47ddc12bd0")
+			(uuid "31fdb1ea-4203-41ef-8c48-8d47ddc12bd1")
 		)
 		(pin "8"
-			(uuid "bf1f51bd-1ad0-4304-a986-1e5e15ab69c3")
+			(uuid "bf1f51bd-1ad0-4304-a986-1e5e15ab69c4")
 		)
 		(pin "16"
-			(uuid "1ffdd412-cfe2-4e95-96ec-509ef22b233e")
+			(uuid "1ffdd412-cfe2-4e95-96ec-509ef22b233f")
 		)
 		(pin "6"
-			(uuid "60ce54cd-bb40-4f1a-9f14-fd5fe770867c")
+			(uuid "60ce54cd-bb40-4f1a-9f14-fd5fe770867d")
 		)
 		(pin "12"
-			(uuid "a5025f75-8acf-460c-b07c-41ddbf62381b")
+			(uuid "a5025f75-8acf-460c-b07c-41ddbf62381c")
 		)
 		(pin "15"
-			(uuid "88860cb3-93ba-4c8c-8c7c-4015bf2d5318")
+			(uuid "88860cb3-93ba-4c8c-8c7c-4015bf2d5319")
 		)
 		(pin "2"
-			(uuid "d700a8d0-6807-46ea-a397-9975ec3127e5")
+			(uuid "d700a8d0-6807-46ea-a397-9975ec3127e6")
 		)
 		(instances
 			(project ""
@@ -12064,52 +11999,52 @@
 			)
 		)
 		(pin "3"
-			(uuid "834be451-307a-44f6-bce2-4f9b8b324194")
+			(uuid "834be451-307a-44f6-bce2-4f9b8b324196")
 		)
 		(pin "11"
-			(uuid "3b276a8c-08ed-4410-a327-38de0555852c")
+			(uuid "3b276a8c-08ed-4410-a327-38de0555852e")
 		)
 		(pin "9"
-			(uuid "0fc2c6c7-c43a-4b67-80e0-7e311af5deea")
+			(uuid "0fc2c6c7-c43a-4b67-80e0-7e311af5deec")
 		)
 		(pin "5"
-			(uuid "75beb72d-bee2-46fc-9056-8ac26d75177d")
+			(uuid "75beb72d-bee2-46fc-9056-8ac26d75177f")
 		)
 		(pin "7"
-			(uuid "ad8c21ca-5c28-4123-97e0-3a12847dafef")
+			(uuid "ad8c21ca-5c28-4123-97e0-3a12847daff1")
 		)
 		(pin "4"
-			(uuid "6794d1f4-333e-4034-8f8e-924e4ebcfd63")
+			(uuid "6794d1f4-333e-4034-8f8e-924e4ebcfd65")
 		)
 		(pin "1"
-			(uuid "ca17602b-5479-44d2-ab42-bede7c974d50")
+			(uuid "ca17602b-5479-44d2-ab42-bede7c974d52")
 		)
 		(pin "10"
-			(uuid "cbc4ca1f-8902-45f0-b841-542a5b38719e")
+			(uuid "cbc4ca1f-8902-45f0-b841-542a5b3871a0")
 		)
 		(pin "14"
-			(uuid "90b5545d-f8cf-4797-b9ee-0fbd0d3affd9")
+			(uuid "90b5545d-f8cf-4797-b9ee-0fbd0d3affdb")
 		)
 		(pin "13"
-			(uuid "31fdb1ea-4203-41ef-8c48-8d47ddc12bd0")
+			(uuid "31fdb1ea-4203-41ef-8c48-8d47ddc12bd2")
 		)
 		(pin "8"
-			(uuid "bf1f51bd-1ad0-4304-a986-1e5e15ab69c3")
+			(uuid "bf1f51bd-1ad0-4304-a986-1e5e15ab69c5")
 		)
 		(pin "16"
-			(uuid "1ffdd412-cfe2-4e95-96ec-509ef22b233e")
+			(uuid "1ffdd412-cfe2-4e95-96ec-509ef22b2340")
 		)
 		(pin "6"
-			(uuid "60ce54cd-bb40-4f1a-9f14-fd5fe770867c")
+			(uuid "60ce54cd-bb40-4f1a-9f14-fd5fe770867e")
 		)
 		(pin "12"
-			(uuid "a5025f75-8acf-460c-b07c-41ddbf62381b")
+			(uuid "a5025f75-8acf-460c-b07c-41ddbf62381d")
 		)
 		(pin "15"
-			(uuid "88860cb3-93ba-4c8c-8c7c-4015bf2d5318")
+			(uuid "88860cb3-93ba-4c8c-8c7c-4015bf2d531a")
 		)
 		(pin "2"
-			(uuid "d700a8d0-6807-46ea-a397-9975ec3127e5")
+			(uuid "d700a8d0-6807-46ea-a397-9975ec3127e7")
 		)
 		(instances
 			(project ""
@@ -12176,58 +12111,130 @@
 			)
 		)
 		(pin "4"
-			(uuid "7466981a-af1c-49a8-bcff-5bb88096aabc")
+			(uuid "7466981a-af1c-49a8-bcff-5bb88096aabe")
 		)
 		(pin "16"
-			(uuid "4d23e05a-ea0f-4f57-a470-109651371225")
+			(uuid "4d23e05a-ea0f-4f57-a470-109651371227")
 		)
 		(pin "9"
-			(uuid "15dcc072-baab-4422-a599-8a04c1b36068")
+			(uuid "15dcc072-baab-4422-a599-8a04c1b3606a")
 		)
 		(pin "1"
-			(uuid "07dcacce-e1b1-4173-9641-55375f99ba5d")
+			(uuid "07dcacce-e1b1-4173-9641-55375f99ba5f")
 		)
 		(pin "14"
-			(uuid "39212ba2-bc68-4aa2-9374-f0793a83690b")
+			(uuid "39212ba2-bc68-4aa2-9374-f0793a83690d")
 		)
 		(pin "2"
-			(uuid "712d1a47-512e-43d3-beee-ef505f8f8c24")
+			(uuid "712d1a47-512e-43d3-beee-ef505f8f8c26")
 		)
 		(pin "11"
-			(uuid "8c68ff0e-99d4-4d81-9597-b4801ba09e72")
+			(uuid "8c68ff0e-99d4-4d81-9597-b4801ba09e74")
 		)
 		(pin "13"
-			(uuid "2f2dda00-a368-4683-a176-729328ff25a3")
+			(uuid "2f2dda00-a368-4683-a176-729328ff25a5")
 		)
 		(pin "12"
-			(uuid "d90b1d74-f71c-49ec-aeff-f56c0db11797")
+			(uuid "d90b1d74-f71c-49ec-aeff-f56c0db11799")
 		)
 		(pin "8"
-			(uuid "1e12a1b8-f490-45bc-b18c-77576229b63b")
+			(uuid "1e12a1b8-f490-45bc-b18c-77576229b63d")
 		)
 		(pin "5"
-			(uuid "81f2967f-c4ff-464f-8429-89520e6b1cbc")
+			(uuid "81f2967f-c4ff-464f-8429-89520e6b1cbe")
 		)
 		(pin "15"
-			(uuid "63adf4f7-ee97-4c0a-ac6a-8e82819e2e87")
+			(uuid "63adf4f7-ee97-4c0a-ac6a-8e82819e2e89")
 		)
 		(pin "7"
-			(uuid "5af48b48-c2d3-4ed8-93bb-5a4fa2f3f776")
+			(uuid "5af48b48-c2d3-4ed8-93bb-5a4fa2f3f778")
 		)
 		(pin "6"
-			(uuid "491df759-57e0-4421-8f91-a2a2c5549a43")
+			(uuid "491df759-57e0-4421-8f91-a2a2c5549a45")
 		)
 		(pin "3"
-			(uuid "c5c6cb4b-2dcb-4e82-aaea-7d8045dbe25e")
+			(uuid "c5c6cb4b-2dcb-4e82-aaea-7d8045dbe260")
 		)
 		(pin "10"
-			(uuid "76af9834-4219-4ee6-aa67-65248c09249d")
+			(uuid "76af9834-4219-4ee6-aa67-65248c09249f")
 		)
 		(instances
 			(project ""
 				(path "/aea8c96d-773b-4621-89b6-2dd77fccfb58"
 					(reference "U2")
 					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Wuerth_450301014042")
+		(at 58.42 105.41 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d5d42042-bb0c-4490-b904-45aa68ffd94a")
+		(property "Reference" "SW2"
+			(at 58.674 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Wuerth_450301014042"
+			(at 58.42 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Button_Switch_THT:SW_Slide-03_Wuerth-WS-SLTV_10x2.5x6.4_P2.54mm"
+			(at 58.42 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/450301014042.pdf"
+			(at 58.42 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Switch slide, single pole double throw"
+			(at 58.42 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "bc216372-7a19-4624-af4b-9903219fd4ab")
+		)
+		(pin "1"
+			(uuid "215306dc-67e3-44d2-8b98-e97e3cadcb99")
+		)
+		(pin "3"
+			(uuid "9ba6d579-34a6-4a4f-9231-b4c3720a06ad")
+		)
+		(instances
+			(project ""
+				(path "/aea8c96d-773b-4621-89b6-2dd77fccfb58"
+					(reference "SW2")
+					(unit 1)
 				)
 			)
 		)
